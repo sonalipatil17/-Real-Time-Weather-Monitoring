@@ -1,5 +1,5 @@
-import Searchbox from "./Searchbox";
-import InfoBox from "./InfoBox";
+import Searchbox from "./searchbox";
+import InfoBox from "./infoBox";
 import { useState } from "react";
 
 export default function WeatherApp() {
@@ -19,7 +19,7 @@ export default function WeatherApp() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h2>Weather App by Delta</h2>
+      <h2>Weather App </h2>
       <Searchbox updateInfo={updateInfo} />
       <InfoBox info={weatherInfo} />
     </div>
