@@ -2,7 +2,7 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import "../Style/Searchbox.css";
+import "../Style/searchbox.css";
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_KEY = "79d3dcc6d039773ff5ef1a2b0569a7fd";
